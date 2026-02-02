@@ -122,7 +122,7 @@ body {
   width: 100%;
   padding: 0.6rem;
   border: none;
-  background: #00c6ff;
+  background: #fe424d;
   color: #000;
   font-weight: bold;
   border-radius: 5px;
@@ -130,7 +130,7 @@ body {
 }
 
 .footer-newsletter button:hover {
-  background: #00a3d9;
+  background: #d63842;
 }
 
 .footer-bottom {
