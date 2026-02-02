@@ -1,54 +1,55 @@
 :root {
-    --bg-color: #f8f9fa;
-    --text-color: #222222;
-    --card-bg: #ffffff;
-    --navbar-bg: #ffffff;
-    --footer-bg: #1c1c1c;
-    --footer-text: #eee;
-    --accent-color: #fe424d;
-    --border-color: #e0e0e0;
+  --bg-color: #f8f9fa;
+  --text-color: #222222;
+  --card-bg: #ffffff;
+  --navbar-bg: #ffffff;
+  --footer-bg: #1c1c1c;
+  --footer-text: #eee;
+  --accent-color: #fe424d;
+  --border-color: #e0e0e0;
 }
 
 [data-theme="dark"] {
-    --bg-color: #121212;
-    --text-color: #e0e0e0;
-    --card-bg: #1e1e1e;
-    --navbar-bg: #1e1e1e;
-    --footer-bg: #121212; /* Match body bg for seamless look or keep distinct */
-    --footer-text: #ccc;
-    --accent-color: #fe424d;
-    --border-color: #333333;
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --navbar-bg: #1e1e1e;
+  --footer-bg: #121212;
+  /* Match body bg for seamless look or keep distinct */
+  --footer-text: #ccc;
+  --accent-color: #fe424d;
+  --border-color: #333333;
 }
 
-body{ 
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    background-color: var(--bg-color) !important;
-    color: var(--text-color) !important;
-    transition: background-color 0.3s, color 0.3s;
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: background-color 0.3s, color 0.3s;
 }
 
- /* Navbar*/
- .navbar{
-    height: 5rem;
-    background-color: var(--navbar-bg) !important;
-    transition: background-color 0.3s;
- }
+/* Navbar*/
+.navbar {
+  height: 5rem;
+  background-color: var(--navbar-bg) !important;
+  transition: background-color 0.3s;
+}
 
- .fa-compass{
-    color: var(--accent-color);
-    font-size: 2rem;
- }
+.fa-compass {
+  color: var(--accent-color);
+  font-size: 2rem;
+}
 
- .nav-link{
-    color: var(--text-color) !important;
- }
- 
- .navbar-brand {
-    color: var(--text-color) !important;
- }
+.nav-link {
+  color: var(--text-color) !important;
+}
 
- /* Footer */
- .footer {
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+/* Footer */
+.footer {
   background: var(--footer-bg);
   color: var(--footer-text);
   padding: 3rem 1rem 1rem;
@@ -64,7 +65,7 @@ body{
 }
 
 .footer h2 {
-  color: #00c6ff;
+  color: #fe424d;
 }
 
 .footer h4 {
@@ -142,53 +143,56 @@ body{
 }
 
 /* Cards */
-.listing-card{
-    border: none !important;
-    margin-bottom: 2rem;
-    background-color: var(--card-bg);
-    transition: background-color 0.3s;
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+  background-color: var(--card-bg);
+  transition: background-color 0.3s;
 }
 
 .listing-card .card-body {
-    background-color: var(--card-bg);
-    color: var(--text-color);
+  background-color: var(--card-bg);
+  color: var(--text-color);
 }
 
-.card-img-top{
-    border-radius: 1rem !important;
-    width: 100% !important;
-    object-fit: cover !important;
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
 }
-.card-body{
-    padding: 0 !important;
+
+.card-body {
+  padding: 0 !important;
 }
 
 .card-text p {
-    font-weight: 400;
+  font-weight: 400;
 }
-.listing-link{
-    text-decoration: none;
+
+.listing-link {
+  text-decoration: none;
 }
 
 /* Card Effect */
-.card-img-overlay{
-    opacity: 0;
+.card-img-overlay {
+  opacity: 0;
 }
-.card-img-overlay:hover{
-    opacity: 0.3;
-    background-color: white;
+
+.card-img-overlay:hover {
+  opacity: 0.3;
+  background-color: white;
 }
 
 /* Show Page*/
-.show-img{
+.show-img {
   height: 30vh;
 }
 
-.btns{
+.btns {
   display: flex;
 }
 
-.show-card{
+.show-card {
   padding-left: 0%;
   padding-right: 0;
 }
